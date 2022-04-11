@@ -8,6 +8,10 @@ public class ArraySumBigInteger {
 
 	public static void main(String[] args) {
 		int size = 0;
+//		Size of array --->5
+//		Input Data---->1000000001 1000000002 1000000003 1000000004 1000000005
+//
+//		Output Data---->50000000015
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the Size of the Array : ");
 		size=sc.nextInt();
