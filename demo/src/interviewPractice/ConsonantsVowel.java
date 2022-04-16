@@ -27,6 +27,24 @@ public class ConsonantsVowel {
 		System.out.println("vowels in given String: "+vowel+" ");
 		System.out.println("Num in given String: "+number+" ");
 		System.out.println("Spaces in given String: "+spaces+" ");
+		
+		System.out.println("===================================================");
+		
+		char[] cha=s.toCharArray();
+		for(int i=0;i<=cha.length-1;i++) {
+			if(cha[i]>='0' && cha[i]<='9') {
+				System.out.print(cha[i]+"");
+			}
+		}
+		System.out.println();
+		System.out.println("===================================================");
+		char[] ch=s.toCharArray();
+		for (char c : ch) {
+			if (Character.isDigit(c)) {
+				System.out.print(c);
+			}
+		}
+	
 	}
 
 }
