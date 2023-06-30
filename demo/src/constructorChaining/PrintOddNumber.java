@@ -18,6 +18,7 @@ public class PrintOddNumber {
 		{
 			System.out.println("number  " +n+ "  is an odd number");
 		}
+		sc.close();
 
 	}
 

@@ -27,6 +27,7 @@ public class ArraySumBigInteger {
 		}
 		System.out.println("Array elements are: "+Arrays.toString(arr));
 		System.out.println("Sum of array elements is :  "+sum);
+		sc.close();
 
 	}
 
