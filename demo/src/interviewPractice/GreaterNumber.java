@@ -1,4 +1,4 @@
-package Start1;
+package interviewPractice;
 
 public class GreaterNumber {
 
