@@ -6,6 +6,7 @@ import java.util.HashSet;
 
 public class HashSetSet1 {
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) {
 		/**
 		 *HashSet

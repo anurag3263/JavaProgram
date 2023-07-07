@@ -37,6 +37,8 @@ switch(operator) {
          break;
 	}
 		System.out.println(result);
+		reader.close();
 	}
+	
 
 }

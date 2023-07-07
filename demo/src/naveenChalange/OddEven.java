@@ -17,6 +17,7 @@ public class OddEven {
 		{
 			System.out.println(num+ " number is odd");
 		}
+		scr.close();
 
 	}
 

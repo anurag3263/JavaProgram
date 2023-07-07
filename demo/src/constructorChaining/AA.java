@@ -12,6 +12,7 @@ public class AA {
 		System.out.println("AA class default constructor called");
 	}
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		System.out.println("AA class main method executing...");

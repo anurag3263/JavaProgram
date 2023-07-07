@@ -14,6 +14,7 @@ public class BB extends AA {
 		System.out.println("BB class default constructor");
 	}
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		System.out.println("BB class main method");
 		BB b=new BB();

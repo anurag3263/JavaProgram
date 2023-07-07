@@ -15,7 +15,7 @@ public class PrintInteger {
 		System.out.println("enter an integer to be print");
 		int num=sc.nextInt();
 		System.out.println("you enter:  "+num);
-		
+		sc.close();
 
 	}
 
