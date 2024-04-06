@@ -27,7 +27,7 @@ public class Demo {
 
 		}
 		for (int i: arraylist) {
-		    System.out.println(i);
+		    System.out.print(i+",");
 		}
 
 	}
