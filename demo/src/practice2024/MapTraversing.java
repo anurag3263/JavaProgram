@@ -12,7 +12,7 @@ public class MapTraversing {
 		map.put("Rohit", "45");
 		
 		for(Entry<String, String> string :map.entrySet()) {
-			System.out.println("Key :"+string.getKey()+" = Value : "+string.getValue());
+			System.out.println(string.getKey()+"  : "+string.getValue());
 		}
 //		        Key :Rohit = Value : 45
 //				Key :anurag = Value : 10
