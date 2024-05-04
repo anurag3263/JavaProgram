@@ -1,7 +1,11 @@
 package practice2024;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.Random;
+import java.util.Set;
 
 public class LinkedInOractice {
 
@@ -206,6 +210,23 @@ public class LinkedInOractice {
 			chara[i] = Character.toUpperCase(chara[i]);
 		}
 		System.out.println(chara);
+
+		System.out.println();
+		// occurance of character in given string
+		String occString = "allahabad";
+		char[] c1 = occString.toCharArray();
+		Map<Character, Integer> map = new HashMap<>();
+		for (Character character : c1) {
+			if (map.containsKey(character)) {
+				map.put(character, map.get(character) + 1);
+			} else {
+				map.put(character, 1);
+			}
+		}
+		System.out.println(map);
+		for (Map.Entry<Character, Integer> entry : map.entrySet()) {
+			System.out.println(entry.getKey() + " : " + entry.getValue());
+		}
 	}
 
 }

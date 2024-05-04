@@ -32,8 +32,10 @@ public class AnagramString {
 
 		if (checkAnagram(str1, str2) == true) {
 			System.out.println("Anagram String");
+		}else {
+			System.out.println("Not an anagram string");
 		}
-		System.out.println("Not an anagram string");
+		
 
 	}
 
