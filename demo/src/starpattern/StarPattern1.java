@@ -7,8 +7,8 @@ public class StarPattern1 {
 			int spc=5;
 			int row=5;
 			for (int i=1;i<=row; i++){
-				for(int j=1;j<=spc;j++){
-					System.out.print("   ");
+				for(int j=1;j<spc;j++){
+					System.out.print(" ");
 				}
 				for (int j=1;j<=num;j++){
 				System.out.print(num+" ");
