@@ -1,4 +1,4 @@
-package starpattern;
+ package starpattern;
 
 public class RevStartPatterSpc {
 
